@@ -1,0 +1,47 @@
+
+
+Evaluation Criteria ~ homework01
+CMSI 2210 Section 01 Fall 2025
+=================================
+
+SAYHELLO.C
+   file exists          1/1 pt.
+   file compiles        1/1 pt.
+   program runs         1/1 pt.
+   prompts user         1/1 pt.
+   reads input          1/1 pt.
+   displays hello name  1/1 pt.
+SAYHELLO.ASM [not required so full points]
+   file exists          1/1 pt.
+   file assembles       1/1 pt.
+   programruns          1/1 pt.
+GENERAL
+   code style           1/1 pt.
+
+Total possible points 10
+
+========================================================
+
+TOTAL EARNED POINTS:
+   you earned 10/10 which is 100% which is an A-plus
+
+========================================================
+SPECIFIC COMMENTS/FEEDBACK:
+
+Nice work here, looks like everything is working for you.
+
+Excellent that you attempted the assembly code right out of the gate!  I'm
+assuming that it is for an x86-type processoron a windows machine?  I was
+able to build and run the code on my x86 box in 32-bit mode by using the
+command "nasm -f win32 sayhello.nasm" then linking using the command
+"gcc sayhello.obj".  It ran for me just fine.
+
+It is helpful when doing assembly code to put a small comment header at the
+top of the file which states the commands used to assemble and link so that
+other team mates and maintainers know what to do.  Try to make that a habit.
+
+As a challenge to yourselves in your "C" code, see if you can find another
+   way of reading values from the user.  There are several different ways
+   of doing that, so do a little research to see what else is available.
+
+Off to a great start!
