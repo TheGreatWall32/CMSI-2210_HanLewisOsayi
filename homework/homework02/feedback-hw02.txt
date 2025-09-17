@@ -1,0 +1,61 @@
+
+
+Evaluation Criteria ~ homework02
+CMSI 2210 Section 02 Fall 2025
+=================================
+
+BOOK PROBLEMS
+   Question 01    1/1 pt.
+   Question 02    1/1 pt.
+   Question 03    1/1 pt.
+   Question 04    1/1 pt.
+   Question 05    1/1 pt.
+   Question 06    1/1 pt.
+   Question 07    1/1 pt.
+   Question 08    1/1 pt.
+   Question 09    1/1 pt.
+   Question 10    1/1 pt.
+   Question 11    1/1 pt.
+   Question 12    1/1 pt.
+   Question 13    1/1 pt.
+   Question 14    1/1 pt.
+   Question 15    1/1 pt.
+   Question 16    1/1 pt.
+   Question 17    0/1 pt.
+   Question 18    1/1 pt.
+   Question 19    1/1 pt.
+   Question 20    1/1 pt.
+
+Total possible points 20
+
+========================================================
+
+TOTAL EARNED POINTS:
+   you earned 19/20 which is 95% which is an A
+
+========================================================
+SPECIFIC COMMENTS/FEEDBACK:
+
+problem 1, your answer is a bit simplistic.  A computer system is more than
+   the Von Neumann architecture.  Think of the Internet as a giant computer
+   and you'll see what I mean.
+
+problem 2, "assembly code" isn't really a *part* of the computer system, but
+   is one of the layers that contributes to the computer's operation.  Still
+   your answer is close enough.
+
+problem 8, don't forget that people can write assembly code, too ~ it doesn't
+   HAVE to be the output from a compiler!
+
+problem 9, don't forget that there are LOTS of options you can use with the
+   "ls" command to get more information and/or format the output!
+
+problem 12, the answer "fetch, decode, execute" is all that was needed.  The
+   fetch cycle doesn't store the address in the program counter, it actually
+   uses the address in the program counter to get the next instruction from
+   memory.
+
+problem 17, "cmp rdi, rsi" is NOT machine language, it is assembly code.  The
+   machine language is ALWAYS only ones and zeros.
+
+Nice job!
