@@ -1,6 +1,6 @@
 1.
 
-2.
+2.see HW4 #2.png
 
 3.
 
@@ -14,7 +14,7 @@
 
 8.
 
-9.
+9. 9.asm
 
 10. Part 1: it swaps whatever is in r8 and r9.
 Part 2: because xor basically reverses itself.
