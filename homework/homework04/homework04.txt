@@ -21,7 +21,12 @@ f) R = R & ~0x7;
 
 7. In gcd.asm
 
-8. 
+8. Store [TEMP]
+   Load [0x30AA]
+   Store [SWAPBUF]
+   Load [TEMP]
+   Store [0x30AA]
+   Load [SWAPBUF]
 
 9. see 9.asm
 
