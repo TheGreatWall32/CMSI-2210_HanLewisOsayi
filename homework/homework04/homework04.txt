@@ -1,8 +1,17 @@
-1.
+1. 1) X = A + (B · C)
+   2) X = (A NAND A) NAND (B NAND C)
+   3) Y = ¬A + C
+   4) Y = A NAND (C NAND C)
 
 2.see HW4 #2.png
 
 3.
+a) R = R & 0xAAAAAAAA;
+b) R = R | 0x7;            
+c) R = R & 0x7;
+d) R = ~0;
+e) R = R ^ (0x3 << 30);
+f) R = R & ~0x7;
 
 4. In fizzbuzz.c
 
@@ -12,7 +21,7 @@
 
 7. In gcd.asm
 
-8.
+8. 
 
 9. see 9.asm
 
