@@ -16,32 +16,19 @@ int is_little_endian() {
 }
 
 // Function to convert 32-bit integer to network byte order (big-endian)
-uint32_t htonl_manual(uint32_t hostlong) {
+uint32_t makeNBOC(uint32_t hostlong) {
     if (is_little_endian()) {
         return ((hostlong & 0x000000FF) << 24) |
                ((hostlong & 0x0000FF00) << 8) |
                ((hostlong & 0x00FF0000) >> 8) |
                ((hostlong & 0xFF000000) >> 24);
     }
-    return hostlong;  // Already in network byte order
+    return hostlong;  // Already in network byte order (big-endian)
 }
 
-// Function to convert 32-bit integer from network byte order to host byte order
+// Function to convert from network byte order to host byte order
 uint32_t ntohl_manual(uint32_t netlong) {
-    // Same as htonl since the conversion is symmetric
-    return htonl_manual(netlong);
-}
-
-// Wrapper function that uses system's htonl if available, otherwise uses our implementation
-uint32_t makeNBOC(uint32_t hostlong) {
-    #ifdef _WIN32
-    // On Windows, we can use the system's htonl
-    #include <winsock2.h>
-    return htonl(hostlong);
-    #else
-    // On other systems, use our implementation
-    return htonl_manual(hostlong);
-    #endif
+    return makeNBOC(netlong);  // Conversion is symmetric
 }
 
 // Test function to demonstrate the functionality
