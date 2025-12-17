@@ -1,0 +1,89 @@
+
+
+Evaluation Criteria ~ homework06
+CMSI 2210 Section all Fall 2025
+=================================
+                                    score
+FINDGCD.NASM                        ------
+   nasm file assembles  [5 pts.]    5 pts.
+   nasm runs            [5 pts.]    5 pts.
+   output correct       [3 pts.]    3 pts.
+GCDFINDER
+   nasm file assembles  [5 pts.]    5 pts.
+   gcdFinder.c compiles [5 pts.]    5 pts.
+   link both files OK   [5 pts.]    5 pts.
+   nasm returns value   [5 pts.]    5 pts.
+   output correct       [3 pts.]    3 pts.
+PARITYGEN
+   nasm file assembles  [5 pts.]    0 pts.
+   nasm runs            [5 pts.]    0 pts.
+   output correct       [3 pts.]    0 pts.
+WHICHENDISUP
+   compiles no errors   [5 pts.]    5 pts.
+   runs no errors       [5 pts.]    5 pts.
+MAKENBOC.C
+   compiles no errors   [5 pts.]    5 pts.
+   uses previous func.  [5 pts.]    5 pts.
+   tester compiles      [5 pts.]    5 pts.
+   tester runs          [5 pts.]    5 pts.
+   output correct       [3 pts.]    3 pts.
+MAKENBO.NASM [Extra credit]
+   nasm file assembles  [5 pts.]    5 pts.
+   link all files OK    [5 pts.]    5 pts.
+   calls "C" function   [5 pts.]    5 pts.
+   output correct       [3 pts.]    3 pts.
+
+Total possible points 82
+   plus 18 extra credit
+   possible maximum of 118%
+
+========================================================
+
+TOTAL EARNED POINTS:
+   you earned 69.00/82.00 which is 84.15% plus
+   18 extra credit points which is 102.15% which is an A-plus
+
+========================================================
+SPECIFIC COMMENTS/FEEDBACK:
+   Although you did it in some of your code, you didn't put a file header
+      into every source code file as was specified several times in class,
+      which contained the commands you used to build the programs.  As I
+      said previously, this is VERY HELPFUL when someone else is going to
+      build and run your code.  I did the best I could with the source
+      files that neglected this requirement, so there may be some points
+      deducted for things that I had to modify to get your code to work.
+
+problem 1 findGCD.nasm
+   works as advertised
+
+problem 2 findGCDfunc.nasm & gcdFinder.c
+   works as advertised
+
+problem 3 paritygen.nasm
+   not done
+
+problem 4 whichEndIsUp.c
+   works as advertised
+
+problem 5 makeNBOC.c & makeNBOCtest.c
+   works as advertised
+
+problem 6 makeNBOC.c & makeNBON.nasm
+   works as advertised, although the "link" command requires some special
+      handling since windows 10 doesn't have that as a native application.
+
+========================================================
+SEMESTER HOMEWORK TOTALS:
+
+   Homework01  100.00% of  5 points =  5.00 points
+   Homework02   95.00% of  5 points =  4.75 points
+   Homework03   76.32% of  5 points =  3.82 points
+   Homework04   98.88% of  5 points =  4.94 points
+   Homework05    94.00% of 10 points = 9.40 points
+   homework06  102.15% of 15 points = 15.32 points
+                      semester total: 43.23 out of 45.00 = 96.07%
+                             which is an A
+
+Great work!  It's been wonderful having you three in class this semester!
+Best wishes for a great holiday break and I look forward to seeing you all
+around campus in the spring!
